@@ -1,0 +1,7 @@
+deployment_name         = "elk"
+deployment_environment  = "elk"
+google_domain_name      = "fuchicorp.com"
+credentials             = "fuchicorp-service-account.json"
+google_bucket_name      = "fuchicorp-common"
+google_project_id       = "solid-antler-278903"
+google_domain_name      = "fuchicorp.com"
