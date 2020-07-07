@@ -1,2 +1,0 @@
-admin_user : ${NODE_NAME}
-ELASTICSEARCH_HOSTS:  ${ELASTICSEARCH_HOSTS:elasticsearch-master:9200}

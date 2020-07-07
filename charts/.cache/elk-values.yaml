@@ -229,15 +229,15 @@ ingress:
   annotations:
     kubernetes.io/ingress.class: nginx
     cert-manager.io/cluster-issuer: letsencrypt-prod
-    nginx.ingress.kubernetes.io/whitelist-source-range: 24.15.232.38/32, 50.194.68.229/32, 10.16.0.27/8
+    nginx.ingress.kubernetes.io/whitelist-source-range: 24.15.232.38/32, 50.194.68.229/32, 10.16.0.27/8, 50.194.68.230/32
     # kubernetes.io/tls-acme: "true"
   path: /
   hosts:
-  - elasticsearch.merv3.com
+  - elasticsearch.fuchicorp.com
   tls:
   - secretName: chart-elasticsearch-tls
     hosts:
-    - elasticsearch.merv3.com
+    - elasticsearch.fuchicorp.com
 
 nameOverride: ""
 fullnameOverride: ""
